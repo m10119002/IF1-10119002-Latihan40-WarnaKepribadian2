@@ -19,7 +19,7 @@ public class Toska extends TipeWarna {
     public Toska() {
         ANSI_CODE = "\u001B[36m";
         ANSI_CODE_BACKGROUND = "\u001B[46m";
-        namaWarna = "HIJAU";
+        namaWarna = "TOSKA";
         namaWarna_F = ANSI_RESET.concat(ANSI_CODE).
                 concat(namaWarna).concat(ANSI_RESET);
     }
